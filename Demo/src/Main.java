@@ -1,6 +1,7 @@
 import inherit.Student;
 import queue_stack.MyStack;
 import queue_stack.Solution;
+import sort.BubbleSort;
 
 public class Main {
 
@@ -21,6 +22,8 @@ public class Main {
 //        }
 //        solution.printListInfo();
 //        solution.printStackInfo();
+        BubbleSort sort = new BubbleSort();
+        sort.sortArrayWithBubble();
     }
     int power(int n, int p) throws Exception{
         throw new Exception( "hahha" );
