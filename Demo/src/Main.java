@@ -1,5 +1,6 @@
 import inherit.Student;
 import queue_stack.MyStack;
+import queue_stack.Solution;
 
 public class Main {
 
@@ -9,8 +10,17 @@ public class Main {
 //        stu.name  //因为该属性是protected类型的
 //        Student stu1 = new Student("");  //有参数的构造器不能被子类自动继承，子类也不能直接使用
 //        Student stu2 = new Student("haha",20);
-        MyStack mySta = new MyStack();
-        mySta.operationStack();
+//        MyStack mySta = new MyStack();
+//        mySta.operationStack();
+//        String str = "HelloWorld";
+//        char[] charArr = str.toCharArray();
+//        Solution solution = new Solution();
+//        for (int i = 0;i < charArr.length;i++){
+//            solution.enqueueCharacter( charArr[i] );
+//            solution.pushCharacter( charArr[i] );
+//        }
+//        solution.printListInfo();
+//        solution.printStackInfo();
     }
     int power(int n, int p) throws Exception{
         throw new Exception( "hahha" );
